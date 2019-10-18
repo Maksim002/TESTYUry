@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B3BEC5"
+    tools:context=".resultActivity">
+
+
+    <TextView
+        android:id="@+id/resultStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:text="RESULT"
+        android:textAllCaps="false"
+        android:textColor="#640D08"
+        android:textSize="60sp"
+        app:fontFamily="@font/berkshire_swash" />
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#0C1F8D"
+        android:text="2 / 10"
+        android:textSize="100dp"
+        app:fontFamily="@font/aclonica" />
+
+
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#2A0333"
+        android:text="Total score: 3333"
+        android:textSize="35sp"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="#E7BA77"
+        android:onClick="returnTop"
+        android:text="Return"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/acme"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
