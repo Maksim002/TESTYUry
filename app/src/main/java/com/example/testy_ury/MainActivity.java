@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
     ArrayList<ArrayList<String>> quizArray = new ArrayList<>();
     String quizData[][] = {
             //{"Question", "right answer", "choicea", "choiceb", "choicec", "choiced"}
-            {"Сколько в день курица приносит яиц?", "1", "2", "2.5", "неприносит нечего"},
+            {"Форма полуэллипса сохраняется у всех видов ванн благодаря выигрышному внешнему виду и удобству.", "White", "Green", "Blue", "yellow"},
             {"Coal color?", "Black", "White", "Blue", "Orange"},
             {"Donald Trump's color?", "Orange", "Black", "Green", "Blue"},
             {"Course number?", "cs3300", "cs4300", "cs1400", "cs4770"},
@@ -82,6 +82,7 @@ public class MainActivity extends Activity {
             {"Biggest planet in solar system?", "Jupiter", "Neptune", "Saturn", "Uranus"},
             {"Biggest planet in solar system?", "Jupiter", "Neptune", "Saturn", "Uranus"}
     };
+
 
     @SuppressLint("WrongViewCast")
     @Override
